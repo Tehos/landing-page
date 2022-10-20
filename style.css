@@ -1,3 +1,36 @@
 * {
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  gap: 48px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
