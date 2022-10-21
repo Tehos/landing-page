@@ -19,6 +19,21 @@ h2 {
   color: #333;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  color: #eee;
+  background-color: rgb(60, 90, 70);
+}
+
 .container-header {
   display: flex;
   flex-direction: column;
@@ -29,9 +44,10 @@ h2 {
   margin: 0 auto;
 }
 
-header {
-  color: #eee;
-  background-color: rgb(60, 90, 70);
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -42,12 +58,6 @@ header {
 
 .link {
   font-size: 24px;
-}
-
-.header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .header-content {
@@ -78,14 +88,6 @@ header {
   box-shadow: 0px 10px 20px -6px rgb(0, 0, 0);
 }
 
-ul {
-  list-style: none;
-  display: flex;
-  gap: 32px;
-  margin: 0;
-  padding: 0;
-}
-
 button.signup {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -102,6 +104,8 @@ button.signup:hover {
   background-color: rgb(60, 90, 70);
   color: #eee;
 }
+
+/* INFORMATION SECTION */
 
 section {
   min-height: 50vh;
