@@ -22,7 +22,8 @@ h1 {
 header {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 128px;
+  min-height: 50vh;
   max-width: 75vw;
   margin: 0 auto;
   color: #eee;
@@ -46,6 +47,7 @@ header {
 
 .header-content {
   display: flex;
+  flex: 1 0 auto;
   gap: 48px;
 }
 
@@ -64,9 +66,10 @@ header {
 .header-img {
   width: 60%;
   height: auto;
-  background-image: url(images/header.jpg);
+  background-image: url(images/header.png);
   background-position: center;
   background-size: cover;
+  box-shadow: 0px 10px 20px -6px rgb(0, 0, 0);
 }
 
 ul {
