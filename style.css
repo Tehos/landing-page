@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
 .container {
   max-width: 75vw;
   margin: 0 auto;
@@ -11,6 +20,16 @@ header {
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+
+.logo {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.link {
+  font-size: 24px;
 }
 
 .header-row {
@@ -24,13 +43,30 @@ header {
   gap: 48px;
 }
 
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 40%;
+}
+
+.header-text p {
+  font-size: 18px;
+}
+
+.header-img {
+  width: 60%;
+  height: auto;
+  background-image: url(images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 ul {
   list-style: none;
   display: flex;
-  gap: 16px;
-}
-
-img {
-  width: 500px;
-  height: auto;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
 }
