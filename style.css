@@ -14,19 +14,18 @@ h1 {
 }
 
 .container {
-  background-color: rgb(60, 90, 70);
-  padding: 24px;
-  padding-bottom: 72px;
-}
-
-header {
   display: flex;
   flex-direction: column;
   gap: 128px;
-  min-height: 50vh;
+  padding: 24px;
+  padding-bottom: 72px;
   max-width: 75vw;
   margin: 0 auto;
+}
+
+header {
   color: #eee;
+  background-color: rgb(60, 90, 70);
 }
 
 .logo {
