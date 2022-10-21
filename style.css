@@ -61,6 +61,7 @@ header {
 
 .header-text p {
   font-size: 18px;
+  height: 100%;
 }
 
 .header-img {
@@ -78,4 +79,21 @@ ul {
   gap: 32px;
   margin: 0;
   padding: 0;
+}
+
+button.signup {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #eee;
+  color: rgb(60, 90, 70);
+  padding: 6px 32px;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  transition: 0.5s;
+}
+
+button.signup:hover {
+  background-color: rgb(60, 90, 70);
+  color: #eee;
 }
