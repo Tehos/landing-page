@@ -261,3 +261,12 @@ section.subscribe {
   background-color: rgb(60, 90, 70);
   color: #eee;
 }
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background-color: rgb(60, 90, 70);
+  color: #eee;
+  padding: 24px 0;
+}
