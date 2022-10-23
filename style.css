@@ -28,6 +28,11 @@ header ul {
   padding: 0;
 }
 
+section {
+  min-height: 50vh;
+  padding: 64px 0;
+}
+
 /* HEADER */
 
 header {
@@ -108,9 +113,8 @@ button.signup:hover {
 
 /* INFORMATION SECTION */
 
-section {
-  min-height: 50vh;
-  padding: 64px 0;
+section.information {
+  background-color: #eee;
 }
 
 .container-information {
@@ -166,4 +170,38 @@ section {
 
 #img-4 {
   background-image: url(images/pexels-mayıs-img-4.jpg);
+}
+
+/* QUOTE SECTION */
+
+.quote {
+  background-color: rgb(223, 230, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-quote {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.quote-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-text {
+  align-self: flex-start;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-name {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: 700;
 }
