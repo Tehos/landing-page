@@ -37,7 +37,7 @@ section {
 
 header {
   color: #eee;
-  background-color: rgb(60, 90, 70);
+  background-color: #3c5a46;
 }
 
 .container-header {
@@ -205,4 +205,59 @@ section.information {
   align-self: flex-end;
   font-size: 18px;
   font-weight: 700;
+}
+
+/* SUBSCRIBE SECTION */
+
+section.subscribe {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-content {
+  background-color: #3c5a46;
+  color: #eee;
+  padding: 24px 128px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+
+.subscribe-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subscribe-text h3 {
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe-content button {
+  align-self: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #eee;
+  color: rgb(60, 90, 70);
+  padding: 6px 32px;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  transition: 0.5s;
+}
+
+.subscribe-content button:hover {
+  background-color: rgb(60, 90, 70);
+  color: #eee;
 }
