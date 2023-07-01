@@ -9,6 +9,11 @@ body {
   padding: 0;
 }
 
+:root{
+  --white: #eee;
+  --green: #3c5a46;
+}
+
 h1 {
   font-size: 48px;
   margin: 0;
@@ -36,8 +41,8 @@ section {
 /* HEADER */
 
 header {
-  color: #eee;
-  background-color: #3c5a46;
+  color: var(--white);
+  background-color: var(--green);
 }
 
 .container-header {
@@ -63,9 +68,17 @@ header {
 }
 
 .link {
+  padding: 1rem 1.5rem;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.link:hover{
+  color: var(--green);
+  background-color: var(--white);
 }
 
 .header-content {
